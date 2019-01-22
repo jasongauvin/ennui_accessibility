@@ -5,9 +5,15 @@
 
 body {
   margin-left: 20px;
-  margin-right: 20px;
+  margin-right: 30px;
   margin-top: 5vh;
   margin-bottom: 5vh;
+  background-color: #DBF4AD;
+  color: #000000;
+}
+
+p {
+  margin: 5px;
 }
 
 p, li, ol, cite, small {
@@ -17,6 +23,7 @@ p, li, ol, cite, small {
 .entete_devinfos h1 {
   font-size: 40px;
   text-align: center;
+  background-color: #8EB19D;
 }
 .entete_devinfos nav ul {
   display: flex;
@@ -28,9 +35,60 @@ p, li, ol, cite, small {
   margin: 10px;
 }
 
+article h1 {
+  font-size: 25px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+  background-color: #FFFFFF;
+}
 article header h1 {
   font-size: 25px;
-  margin: 10px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+  background-color: #FFFFFF;
+}
+
+.content h2 {
+  font-size: 20px;
+  margin: 30px;
+  background-color: #A9E190;
+  margin-right: 5px;
+}
+.content figure {
+  margin: 20px;
+}
+.content figure div {
+  margin: 5px;
+}
+
+footer {
+  padding: 30px;
+}
+footer h1 {
+  font-size: 25px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+  background-color: #FFFFFF;
+}
+
+section {
+  border: 1px solid;
+  padding: 10px;
+}
+section h2 {
+  font-size: 20px;
+  margin: 30px;
+  background-color: #A9E190;
+  margin-right: 5px;
+}
+section article {
+  margin: 20px;
+}
+section article time, section article cite {
+  font-weight: bold;
+}
+section article p {
+  margin-top: 5px;
 }
 
 @media (min-width: 768px) {
@@ -40,6 +98,7 @@ article header h1 {
   }
   .entete_devinfos nav ul {
     display: flex;
+    flex-direction: row;
   }
   .entete_devinfos nav ul li {
     padding: 20px;
