@@ -10,12 +10,12 @@
 </head>
 
 <body role="document" itemscope="itemscope" itemtype="http://schema.org/WebPage">
-    <header>
-        <h1>Bout de pensée</h1>
+    <header class="entete_devinfos">
+        <h1>dev_infos</h1>
         <nav>
             <ul>
                 <li><a href="index.htm" title="Accès à la page d'accueil">Accueil</a></li>
-                <li><a href="trucs.htm" title="Accès à mes trucs et astuces">Trucs</a></li>
+                <li><a href="trucs.htm" title="Accès à mes trucs et astuces">Trucs & Astuces</a></li>
                 <li><a href="contact.htm" title="Accès à la page de contact">Contact</a></li>
             </ul>
         </nav>
@@ -32,8 +32,7 @@
                 <p>D’après mon expérience, le milieu informatique peut être assez hostile. Cet article expose une des raisons majeures de ce constat, l’égo du développeur. Après avoir comparé des environnements hostiles et bienveillants, je présenterai des idées pour non seulement y survivre, mais aussi inverser la tendance et prendre encore plus de plaisir à faire ce qui nous plaît : de la tech.</p>
                 <h2>Pourquoi tant d’ego en info ?</h2>
                 <p>En informatique, on se pose beaucoup de questions, tout le temps. Pour être reconnu comme compétent dans un domaine, il faut avoir souvent raison. Certains poussent même le vice jusqu’à vouloir avoir raison tout le temps. De cette manière, aucun doute ne subsiste sur leurs compétences, techniques en tout cas. Le biais cognitif de gens incompétents se sentant supérieurs, appelé effet Dunning-Kruger, n’arrange pas les choses. Quand le monde dans lequel on baigne est dominé par des gens qui ont toujours (ou presque) raison, il devient difficile d’accepter d’avoir tort, car cela devient un aveu de faiblesse.</p>
-                    geg
-                    rz
+                <div class="textandimage">    
                     <figure>
                         <figcaption>
                             <img src="./assets/img/archer-citation.png" alt="archer-citation-image">
@@ -41,22 +40,24 @@
                             title="Le secteur informatique n’est pas le seul à souffrir du problème.">Le secteur informatique n’est pas le seul à souffrir du problème.</a></small>
                         </figcaption>
                     </figure>
+                    <div>
+                        <p>Le symptôme est cependant plus exacerbé que dans d’autres secteurs, tant du fait du relatif manque de maturité de la discipline que de l’incroyable vitalité des technologies qui naissent et disparaissent continuellement. </p>
+                        <h2>J’ai mal à l’égo</h2>
+                        <p>« Ego » vient du latin, et signifie littéralement « je ». Voici une définition intéressante faite par la psychanalyse :</p>
+                        <cite>Le mot ego désigne en psychanalyse la part de la personnalité chargée d’équilibrer les différentes forces auxquelles est confronté le psychisme de l’individu. Ces forces incluent ses pulsions profondes, sa morale personnelle et la réalité du monde extérieur tel qu’il le perçoit.</cite>
+                        <ol>
+                            <li>C’est un milieu élitiste : suis-je à la hauteur ?</li>
+                            <li>Si tu ne sais pas, tu es incompétent, voire bête</li>
+                            <li>“Mon” code me définit</li>
+                            <li>Poser des questions techniques, c’est exposer son incompétence</li>
+                            <li>Lorsqu’une star vient enfin m’aider, il m’écrase tellement que je n’ose même plus solliciter de l’aide</li>
+                            <li>Se moquer des autres est fun et fait partie de la culture, c’est même gratifiant</li>
+                            <li>Se fédérer autour de code pourri à la pause est un sport bien plaisant</li>
+                            <li>Du coup, montrer le code sur lequel je travaille devient risqué</li>
+                            <li>Le Héros, capable d’enchaîner les nuits blanches, toujours au fait de tout, fait partie de la mythologie.</li>
+                        </ol>
+                    </div>
                 </div>
-                <p>Le symptôme est cependant plus exacerbé que dans d’autres secteurs, tant du fait du relatif manque de maturité de la discipline que de l’incroyable vitalité des technologies qui naissent et disparaissent continuellement. </p>
-                <h2>J’ai mal à l’égo</h2>
-                <p>« Ego » vient du latin, et signifie littéralement « je ». Voici une définition intéressante faite par la psychanalyse :</p>
-                <cite>Le mot ego désigne en psychanalyse la part de la personnalité chargée d’équilibrer les différentes forces auxquelles est confronté le psychisme de l’individu. Ces forces incluent ses pulsions profondes, sa morale personnelle et la réalité du monde extérieur tel qu’il le perçoit.</cite>
-                <ol>
-                    <li>C’est un milieu élitiste : suis-je à la hauteur ?</li>
-                    <li>Si tu ne sais pas, tu es incompétent, voire bête</li>
-                    <li>“Mon” code me définit</li>
-                    <li>Poser des questions techniques, c’est exposer son incompétence</li>
-                    <li>Lorsqu’une star vient enfin m’aider, il m’écrase tellement que je n’ose même plus solliciter de l’aide</li>
-                    <li>Se moquer des autres est fun et fait partie de la culture, c’est même gratifiant</li>
-                    <li>Se fédérer autour de code pourri à la pause est un sport bien plaisant</li>
-                    <li>Du coup, montrer le code sur lequel je travaille devient risqué</li>
-                    <li>Le Héros, capable d’enchaîner les nuits blanches, toujours au fait de tout, fait partie de la mythologie.</li>
-                </ol>
                 <p>Certains points peuvent paraître extrêmes, mais à la sortie de l’école, très peu de gens savent bien coder. Et même après des années d’expérience, si vous n’avez pas eu la chance de travailler avec des craftsmen, ce n’est pas un acquis, loin de là.</p>
                 <h2>Un Nouveau Monde</h2>
                 <p>Je suis ensuite parti pendant neuf ans à Melbourne.  Dans tous les sens du terme, j’ai découvert un Nouveau Monde :</p>
@@ -82,13 +83,15 @@
                             title="Les 4 étapes.">Les 4 étapes</a></small>
                         </figcaption>
                     </figure>
-                    <p>En résumé, voici les quatre étapes :</p>
-                    <ol>
-                        <li>The athlete stage, pendant lequel le corps, notre apparence est la plus importante. On aime se regarder et on soigne son image le plus possible. Les “like”  sur Facebook dictent notre humeur.</li>
-                        <li>The warrior stage, pendant lequel on veut conquérir le monde, être le meilleur, battre les autres. Perdre est insupportable, échouer pareil. Il faut écraser les autres pour monter et l’échec est tabou.</li>
-                        <li>The state stage, où l’on réalise que les deux premiers stades ne nous rendent pas heureux. L’altruisme devient une préoccupation. On comprend enfin que donner c’est recevoir et qu’il est temps de ne plus être égoïste. On a envie de se sentir connecté aux autres, et le partage nous fait grand plaisir (quand je mange au restaurant avec ma femme, ce stage m’est inaccessible, je ne partage pas ma nourriture).</li>
-                        <li>The spirit stage, où une fois encore on réalise que les autres stades ne nous définissent pas et ne nous satisfont toujours pas. Je vous laisse le soin de creuser ce dernier si le cœur vous en dit, car nous sortirions allègrement du sujet de cet article.</li>
-                    </ol>
+                    <div>
+                        <p>En résumé, voici les quatre étapes :</p>
+                        <ol>
+                            <li>The athlete stage, pendant lequel le corps, notre apparence est la plus importante. On aime se regarder et on soigne son image le plus possible. Les “like”  sur Facebook dictent notre humeur.</li>
+                            <li>The warrior stage, pendant lequel on veut conquérir le monde, être le meilleur, battre les autres. Perdre est insupportable, échouer pareil. Il faut écraser les autres pour monter et l’échec est tabou.</li>
+                            <li>The state stage, où l’on réalise que les deux premiers stades ne nous rendent pas heureux. L’altruisme devient une préoccupation. On comprend enfin que donner c’est recevoir et qu’il est temps de ne plus être égoïste. On a envie de se sentir connecté aux autres, et le partage nous fait grand plaisir (quand je mange au restaurant avec ma femme, ce stage m’est inaccessible, je ne partage pas ma nourriture).</li>
+                            <li>The spirit stage, où une fois encore on réalise que les autres stades ne nous définissent pas et ne nous satisfont toujours pas. Je vous laisse le soin de creuser ce dernier si le cœur vous en dit, car nous sortirions allègrement du sujet de cet article.</li>
+                        </ol>
+                    </div>
                 </div>
             </div>
                             

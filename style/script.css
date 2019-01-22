@@ -4,135 +4,55 @@
 }
 
 body {
-  font-size: 16px sans-serif;
-  display: flex;
-  flex-direction: column;
-  font-weight: 100;
   margin-left: 20px;
   margin-right: 20px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 
-img {
-  width: 50vw;
-  height: 50vw;
-  margin-bottom: 20px;
-  align-items: center;
-  margin-top: 10px;
-  font-size: 30px;
+p, li, ol, cite, small {
+  line-height: 4vh;
 }
 
-ul {
-  list-style: none;
+.entete_devinfos h1 {
+  font-size: 40px;
+  text-align: center;
+}
+.entete_devinfos nav ul {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.entete_devinfos nav ul li {
+  margin: 10px;
+}
+
+article header h1 {
+  font-size: 25px;
+  margin: 10px;
 }
 
 @media (min-width: 768px) {
-  body {
-    font-size: 16px sans-serif;
+  .entete_devinfos {
+    display: flex;
+    justify-content: space-between;
+  }
+  .entete_devinfos nav ul {
+    display: flex;
+  }
+  .entete_devinfos nav ul li {
+    padding: 20px;
+  }
+
+  .textandimage {
+    display: flex;
+  }
+  .textandimage div {
+    margin: 20px;
     display: flex;
     flex-direction: column;
-  }
-
-  img {
-    width: 100vw;
-    margin-bottom: 20px;
-    align-items: center;
-  }
-
-  figure {
-    display: flex;
-  }
-
-  img {
-    margin-top: 10px;
-    margin-left: -30px;
-    font-size: 30px;
-  }
-
-  h2 {
-    margin-top: 10px;
-    font-size: 2px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-  }
-
-  h3 {
-    font-size: 18px;
-  }
-
-  p {
-    font-size: 14px;
-    margin-bottom: 20px;
-  }
-
-  nav {
-    display: flex;
-    flex-direction: column;
-  }
-
-  ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-  }
-
-  li {
-    flex-direction: column;
-  }
-}
-@media (min-width: 1024px) {
-  body {
-    font: 16px sans-serif;
-    display: flex;
-    flex-direction: column;
-  }
-
-  img {
-    width: 100vw;
-    margin-bottom: 20px;
-    align-items: center;
-  }
-
-  figure {
-    display: flex;
-  }
-
-  img {
-    margin-top: 10px;
-    margin-left: -30px;
-    font-size: 30px;
-  }
-
-  h2 {
-    margin-top: 10px;
-    font-size: 2px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-  }
-
-  h3 {
-    font-size: 18px;
-  }
-
-  p {
-    font-size: 14px;
-    margin-bottom: 20px;
-  }
-
-  nav {
-    display: flex;
-    flex-direction: column;
-  }
-
-  ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-  }
-
-  li {
-    flex-direction: column;
+    justify-content: center;
   }
 }
 

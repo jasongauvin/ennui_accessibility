@@ -3,145 +3,65 @@
     max-width: 100%;
   }
 
-  body {
-    font: 16px sans-serif;
-    display: flex;
-    flex-direction: column;
-    // background-color: ;
-    font-weight: 100;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  
-  img {
-    width: 50vw;
-    height: 50vw;
-    margin-bottom: 20px;
-    align-items: center;
-    margin-top: 10px;
-    font-size: 30px;
-  }
+body {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
 
- 
+p, li, ol, cite, small{
+  line-height: 4vh;
+}
 
-  ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
+.entete_devinfos {
+  h1 {
+    font-size: 40px;
+    text-align: center;
   }
-
-  @media (min-width:768px) {
-    body {
-      font-size: 16px sans-serif;
-      display: flex;
-      flex-direction: column;
-    }
-    
-    img {
-      width: 100vw;
-      margin-bottom: 20px;
-      align-items: center;
-    }
-  
-    h1,h2,h3{
-    }
-  
-    figure{
-      display: flex;
-  
-    }
-    img {
-      margin-top: 10px;
-      margin-left: -30px;
-      font-size: 30px;
-    }
-    
-    h2 {
-      margin-top: 10px;
-      font-size: 2px;
-      margin-bottom: 10px;
-      margin-left : 10px;
-    }
-    
-    h3 {
-      font-size: 18px;
-    }
-    
-    p {
-      font-size: 14px;
-      margin-bottom: 20px;
-    }
-    
-    nav {
-      display: flex;
-      flex-direction: column;
-    }
-  
+  nav {
     ul {
-      list-style: none;
-      display: flex;
-      justify-content: space-around;
-    }
-  
-    li {
-      flex-direction: column;
-    }
-  }
-  
-  @media (min-width:1024px) {
-    body {
-      font: 16px sans-serif;
       display: flex;
       flex-direction: column;
-    }
-    
-    img {
-      width: 100vw;
-      margin-bottom: 20px;
       align-items: center;
-    }
-  
-    h1,h2,h3{
-    }
-  
-    figure{
-      display: flex;
-  
-    }
-    img {
-      margin-top: 10px;
-      margin-left: -30px;
-      font-size: 30px;
-    }
-    
-    h2 {
-      margin-top: 10px;
-      font-size: 2px;
-      margin-bottom: 10px;
-      margin-left : 10px;
-    }
-    
-    h3 {
-      font-size: 18px;
-    }
-    
-    p {
-      font-size: 14px;
-      margin-bottom: 20px;
-    }
-    
-    nav {
-      display: flex;
-      flex-direction: column;
-    }
-  
-    ul {
-      list-style: none;
-      display: flex;
-      justify-content: space-around;
-    }
-  
-    li {
-      flex-direction: column;
+      margin: 20px;
+      li {
+        margin: 10px;
+      }
     }
   }
+}
+article {
+  header {
+    h1 {
+      font-size: 25px;
+      margin: 10px;
+    }
+  }
+}
+@media (min-width: 768px){
+  .entete_devinfos {
+    display: flex;
+    justify-content: space-between;
+    nav ul {
+      display: flex;
+      li {
+        padding: 20px;
+      }
+    }
+  }
+  .textandimage {
+    display: flex;
+
+    div {
+      margin: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+}
+  
+
+
+
